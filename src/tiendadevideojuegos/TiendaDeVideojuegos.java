@@ -45,7 +45,7 @@ public class TiendaDeVideojuegos {
                         cuantos = Integer.parseInt(JOptionPane.showInputDialog("Cuantos Videojuegos de " + tipo + " desea? (entre 1 y 10)"));
                         if (cuantos >= 1 && cuantos <= 10) {
                             switch (cual) {
-                                case 1://Americano
+                                case 1:
                                     salida = salida + "Videojuego: " + tipo + "\nCantidad: " + cuantos + "\nPrecio $70.00" + "\nSubtotal $" + (cuantos * 70.00) + "\n\n";
                                     totalCliente = totalCliente + (cuantos * 70.00);
                                     break;
